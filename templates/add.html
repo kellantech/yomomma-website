@@ -1,0 +1,19 @@
+<h1>add a yo momma joke</h1>
+
+note: press submit, not ENTER or RETURN
+<form name="f"><input name="in"></form>
+
+<button onclick="go();">submit</button>
+<button onclick="go1();">go home</button>
+<script>
+
+function go() {
+	var v = document.forms["f"]["in"].value
+ window.location.href=`/add?joke=${v}`
+}
+	
+</script>
+<script>function go1() {
+	window.location.href = "/"
+}
+</script>
