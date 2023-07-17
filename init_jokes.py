@@ -4,7 +4,10 @@ def load_joke_file(file="jokes.txt"):
 	with open(file, 'r') as f:
 		global r
 		r = f.readlines()
-		
+
+
+
+
 load_joke_file()
 def initdb():
 	global r
